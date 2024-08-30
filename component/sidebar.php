@@ -66,6 +66,11 @@
               <span class="menu-title">Mata Kuliah</span>
             </a>
           </li>
-          
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?page=pages/mahasiswa/index">
+              <i class="icon-box menu-icon"></i>
+              <span class="menu-title">Mahasiswa</span>
+            </a>
+          </li>
         </ul>
       </nav>
