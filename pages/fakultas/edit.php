@@ -7,6 +7,8 @@ if (empty($fakultas)) {
 }
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $nama_fakultas =  $db->real_escape_string($_POST['nama_fakultas']);
+   $alamat_fakultas =  $db->real_escape_string($_POST['alamat_fakultas']);
+
 
    // Update prodi
    $sql = "UPDATE fakultas SET nama_fakultas = '$nama_fakultas' WHERE id_fakultas = $id_fakultas";

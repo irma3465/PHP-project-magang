@@ -1,9 +1,10 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    $nama_fakultas =  $db->real_escape_string($_POST['nama_fakultas']);
+   $alamat_fakultas =  $db->real_escape_string($_POST['alamat_fakultas']);
   
    // Insert ke database
-   $sql = "INSERT INTO fakultas (nama_fakultas,alamat_fakultas) VALUES ('$nama_fakultas','$alamat_fakultas)";
+   $sql = "INSERT INTO fakultas (nama_fakultas,alamat_fakultas) VALUES ('$nama_fakultas','$alamat_fakultas')";
    if ($db->query($sql) === TRUE) {
       echo "<script>alert('fakultas created successfully.');window.location.href='index.php?page=pages/fakultas/index';</script>";
    } else {

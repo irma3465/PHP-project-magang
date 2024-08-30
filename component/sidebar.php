@@ -54,6 +54,18 @@
               <span class="menu-title">Prodi</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?page=pages/dosen/index">
+              <i class="icon-box menu-icon"></i>
+              <span class="menu-title">Dosen</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?page=pages/mata_kuliah/index">
+              <i class="icon-box menu-icon"></i>
+              <span class="menu-title">Mata Kuliah</span>
+            </a>
+          </li>
           
         </ul>
       </nav>
