@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php endif; ?>
             <form action="" method="post">
                <div class="form-group">
-                  <label for="nama_prodi">Nama Progra </label>
+                  <label for="nama_prodi">Nama Prodi </label>
                   <input type="text" class="form-control p-input" id="nama_prodi" placeholder="Masukkan nama Prodi" name="nama_prodi" required>
                </div>
                <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-paper-plane"></i> Submit</button>

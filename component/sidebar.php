@@ -36,6 +36,24 @@
               <span class="menu-title">Product</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?page=pages/fakultas/index">
+              <i class="icon-box menu-icon"></i>
+              <span class="menu-title">Fakultas</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?page=pages/jurusan/index">
+              <i class="icon-box menu-icon"></i>
+              <span class="menu-title">Jurusan</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?page=pages/prodi/index">
+              <i class="icon-box menu-icon"></i>
+              <span class="menu-title">Prodi</span>
+            </a>
+          </li>
           
         </ul>
       </nav>
